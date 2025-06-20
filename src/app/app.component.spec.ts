@@ -27,8 +27,4 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('h1')?.textContent).toContain('Hello, booking-app');
   });
 
-  it('should fail', () => {
-    expect(false).toContain('Hello, booking-app');
-    
-  });
 });
