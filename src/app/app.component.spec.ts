@@ -29,5 +29,6 @@ describe('AppComponent', () => {
 
   it('should fail', () => {
     expect(false).toContain('Hello, booking-app');
+    
   });
 });
